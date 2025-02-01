@@ -12,8 +12,8 @@ Button.propTypes = {
       textInsideButton: PropTypes.string.isRequired
 }
 
-// Button.defaultProps = {  
-//       bgColor: "Yellow" 
-// }
+Button.defaultProps = {  
+      bgColor: "Yellow" 
+}
 
 export default Button
