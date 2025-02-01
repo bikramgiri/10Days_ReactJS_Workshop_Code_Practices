@@ -43,6 +43,7 @@
 // import './App.css' 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './Home'
+import About from './About'
 
  // Create Home, About, and Contact components.
 function App() {
@@ -50,8 +51,8 @@ function App() {
   return (
     <BrowserRouter> 
     <Routes>
-      <Route path="/" element={<Home/>}/>  
-      <Route path="/about" element={<h2>About Page</h2>}/>
+      <Route path="/" element={<Home />}/>  
+      <Route path="/about" element={<About />}/>
       <Route path="/contact" element={<h1>Contact Page</h1>}/>
     </Routes> 
     </BrowserRouter>
