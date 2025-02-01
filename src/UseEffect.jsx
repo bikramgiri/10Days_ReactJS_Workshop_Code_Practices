@@ -12,7 +12,7 @@ const UseEffect = () => {
 
 
 
-// Type2 of useEffect on the basis of execution
+// // Type2 of useEffect on the basis of execution
 // useEffect(()=>{
 //       // document.title = `Count: ${count2}` // This will change the title of the page to the count value of count2
 //       console.log("useEffect Triggered")
@@ -20,7 +20,7 @@ const UseEffect = () => {
 
 
 
-// Type3 of useEffect on the basis of execution
+// // Type3 of useEffect on the basis of execution
 
 // useEffect(()=>{
 //       console.log("useEffect Triggered")
