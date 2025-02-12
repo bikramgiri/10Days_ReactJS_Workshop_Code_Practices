@@ -25,30 +25,3 @@ const Home = () => {
 
 export default Home
 
-// import { Component } from "react";
-
-// class Home extends Component{
-//   constructor(){
-//     super()
-
-//     this.state = {
-//       count: 0
-//     }
-//   }
-
-//   increaseCounter(){
-//     this.setState({count : this.state.count + 1})
-//   }
-
-//   render(){
-//     return(
-//       <div>
-//         <h1>Count : {this.state.count}</h1>
-//         <button onClick={()=>this.increaseCounter()}>+</button>
-//       </div>
-//     )
-//   }
-
-// }
-
-// export default Home
